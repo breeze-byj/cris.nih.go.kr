@@ -73,7 +73,7 @@ class Run(PySelenium):
 
 
 if __name__ == '__main__':
-    url = 'https://cris.nih.go.kr/cris/search/listDetail.do?my_code=2308&intervention_type=&clinical_step=&search_yn=Y&class_yn=Y&class_title=Condition%28s%29%2FProblem%28s%29&class_title2=Neoplasms#1'
+    url = 'https://Y3Jpcy5uaWguZ28ua3I=/cris/search/listDetail.do?my_code=2308&intervention_type=&clinical_step=&search_yn=Y&class_yn=Y&class_title=Condition%28s%29%2FProblem%28s%29&class_title2=Neoplasms#1'
     browser = webdriver.Chrome()
     browser.implicitly_wait(20)
     start = Run(browser)
